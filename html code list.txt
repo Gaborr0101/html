@@ -1,0 +1,181 @@
+<!--komment-->  ez egy komment ez nem fut le
+
+<!DOCTYPE> dokumentum típus
+
+- <a> </a> hyper link készítés;inline típus
+	- tulajdonságai:
+		- href (hovamutat) 
+		- target(hol nyílikmeg)
+
+- <adress> blokk típus; cím infokat tárol
+
+- <article> blokk típusu elem; tartalom kerülbele
+
+- <aside> blokk típusuelem; elkülönített tartalom; gyakran az oldalsó sávban helyezkedik el
+
+- <audio> hangokbeállítása
+	- tulajdonságai:
+		- source (ebben kell megadni a hangokat)
+
+- <b> félkövér; inline típus
+
+- <base> headban helyezkedik el relatív hivatkozások alapját adja meg
+
+- <blockquote> blokk típus; idézet megjelnítésre szolgál>
+	- tulajdonságai:
+		- cite (idézet forrása)
+
+- <body> a body a html oldal teste a megjelenítendő adatok kerülnek ide 
+
+- <br> bekezdésen belelüli sortörés; inline elem nincs zárótag
+
+- <button> ürlap(form) elem
+	- tulajdonságai:
+		- name (válzozó neve)
+		- type (típusa: button; reset; submit (beküldőgomb)
+		- value (gomb értéke és szövege)
+
+- <canvas> blokk típusu elem rajzolni lehet rá
+
+- <caption> a táblázat címe felirata
+
+- <cite> a munka címét definiálja
+
+- <code> a programkódot jelenítjük meg ebben
+
+- <data> adatokat lehet megadni kódokhoz jacascriptben
+
+- <datalist> adatlista  
+
+- <dd> discription list leírása
+
+- <del> inline elem törölt rész jelzésére alapesetben áthúzott
+
+- <div> általános célu blokk elem
+
+- <dl> discription list (leírólista)
+
+- <dt> discritption title (leíró lista címe)
+
+- <em> nyomatékosítás; dőlt 
+
+- <figure> képek megjelenítésekor képaláírást készít
+
+- <footer> lábléc blokk elem
+
+- <form> űrlap
+	-tulajdonságai
+		-action (url az értéke ide küldi az adatokat)
+		- method milyen módon kuldje el get (url részeként küldi az adatokat látható nem titkos kissebb adatokra) post (háttérben küld titkos nagy adaatokra is frissítéskor rákérdez az ujra küldésre))
+
+- <h1>-<h6> címsorok blokk elemek
+
+- <head> dokumentum fejléce
+
+- <header> weboldal fejléce footer párja; blokk elem
+
+-<hr> horizontális vonal nincs záró tagja
+
+- <i> dőlt betü
+
+-  <iframe> beépített keret
+
+- <img> inline elem nincs záró tagja 
+
+- <input> ürlapelem adatok bevitelére szolgál 
+	-tulajdonságai
+		-name (ilyen néven lesz átküldve)
+		-value (értéke)
+		-type (típusok text (egy soros szöveg bekérés) password (pontozott (titkos) szöveg bekérés)) 
+
+- <ins> beszúrt szöveg jelölése, inline elem
+
+- <label> címke az input mezőnek (formhoz kapcsolódik)
+
+-<li> lista elem
+
+- <link> dokumentum és külső forrás összekapcsolása (css fájl csatolása)
+
+- <mark> kiemel egy szövegrészt; inline elem
+
+- <3333333333333333333333333333333333333333333333333333333333333333333333333333333
+
+- <meta> meta informáciok megadására szolgál nincs záró tag
+(meta adat: adat az adatról) 
+
+- <nav> navigácios eszköz blokk elem
+
+- <ol> sorszámozott lista
+
+- <option> ürlap (form) elem legördülő lista egy elelmét adja meg
+
+- <p> bekeszdés (paragraph)
+
+- <picture> kép megadása
+
+- <pre> előformázott szöveg
+
+- <q> rövid idézet
+
+- <s> márnem megfelelő szöveg jelölése inline elem
+
+-<script> java script betöltésére/írására képes
+	-tulajdonsága
+		-src (értéke url ez a betöltése helye azt tölti be ahova mutat az url)
+
+-<section> dokumentum egy részlt definiálja blokk ele
+
+- <select> egy legördülőlista
+
+- <small> kisseb betűs lista
+
+- <source> média forrás
+
+- <span> általános inline elem csoportosít
+
+- <strong> fontos szöveget jelez; inline; elem félkövér
+
+- <style> stílusok megadása 
+
+- <sub> alsó index inline elem
+
+- <sup> felső index inline elem 
+
+- <table> táblázat
+
+- <td> táblázat cellája
+
+- <th> tábla fejléc cella
+
+- <title> a weboldal címe headbe kerül böngésző tabon jelenik meg
+
+- <track> auido és videó elemekhez ad sávot pl: feliratot
+
+- <u> aláhúzás
+
+- <ul> rendezetlen lista definiálása
+
+- <video> videó hozzáadása
+	-tulajdonságai:
+		- width
+		- height
+		- controls
+		- autoplay
+		- loop (ismétli a videót)
+
+- <wbr> lehetséges sortörés
+
+SPECIÁLIS JELEK
+
+- neve van pl: &euro;= €
+
+- decimális számkód pl &#8364= €
+
+- hexadecimális kód &#x20AC;
+
+pl &copy; copy right sing
+&reg rigistered sing
+&trade trademark 
+&gt drater then kacsa csőr
+&quot idéző jel
+&nbsp nem törő szóköz  
