@@ -46,13 +46,13 @@
         .feherFuto {  background-position: 70% 103%;  }
         .feherLo { background-position: -10% 103%; }
         .feherVezer { background-position: 110% 53%;}
-        .feherKiraly{  background-position: 70% 53%; }
+        .feherKiraly{  background-position: 70% 50%; }
         .feherGyalog { background-position: 110% 103%;}
         .feketeBastya {background-position: 70% -5%;}
         .feketeLo {background-position: 110% -5%;}
         .feketeFuto {background-position: 30% -5%;}
         .feketeVezer {background-position: -10% 53%;}
-        .feketeKiraly {background-position: 30% 53%;}
+        .feketeKiraly {background-position: 30% 50%;}
         .feketeGyalog {background-position: -10% -5%;}
 
 
@@ -61,13 +61,24 @@
 <body>
     <script>
         var sorszam=0;
+        var elso;
         function kattint(elem)
         {
             //console.log (elem)
             if(sorszam==0)
             {
-                sorszam++;
+                if(elem.dataset["babu"]!="")
+                {
+                    elso=elem;
+                     sorszam++;
+                }
             }
+            else
+            {
+                sorszam=0
+            }
+
+            console.log (sorszam);
         }
     </script>
     <!--img src="sakk.png"--> 
@@ -77,14 +88,14 @@
         </tr>
         <tr>
             <td>1</td>
-            <td class="fekete feherBastya" onclick="kattint (this)"></td>
-            <td class="feherLo"></td>
-            <td class="fekete feherFuto" ></td>
-            <td class="feherVezer"></td>
-            <td class="fekete feherKiraly"></td>
-            <td class="feherFuto"></td>
-            <td class="fekete feherLo"></td>
-            <td class="feherBastya"></td>
+            <td class="fekete feherBastya" data-babu="feherBastya" onclick="kattint (this)"></td>
+            <td class="feherLo" data-babu="feherLo" onclick="kattint (this)"></td>
+            <td class="fekete feherFuto" data-babu="feherFuto" onclick="kattint (this)" ></td>
+            <td class="feherVezer" data-babu="feherVezer" onclick="kattint (this)"></td>
+            <td class="fekete feherKiraly" data-babu="feherKiraly" onclick="kattint (this)"></td>
+            <td class="feherFuto" data-babu="feherFuto" onclick="kattint (this)"></td>
+            <td class="fekete feherLo" data-babu="feherLo" onclick="kattint (this)"></td>
+            <td class="feherBastya" data-babu="feherBastya" onclick="kattint (this)"></td>
         </tr>
         <tr>
             <td>2</td>
