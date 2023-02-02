@@ -75,6 +75,15 @@
             }
             else
             {
+                //lerakas
+                elem.classList.add(elso.dataset["babu"]);
+                elem.dataset["babu"]=elso.dataset["babu"];
+
+                //régi törlése
+                elso.classList.remove(elso.dataset["babu"]);
+                elso.dataset["babu"]="";
+
+
                 sorszam=0
             }
 
