@@ -12,7 +12,7 @@
 
         .fekete 
         {
-            background-color: black;
+            background-color: rgb(59, 58, 58);
         }
 
         td
@@ -67,14 +67,23 @@
             //console.log (elem)
             if(sorszam==0)
             {
-                if(elem.dataset["babu"]!="")
+                //ureset ne lehessen felvenni
+                if(elem.dataset["babu"] && elem.dataset["babu"]!="")
                 {
                     elso=elem;
                      sorszam++;
+                     console.log(elem);
+                     console.log(elem.dataset["babu"]);
                 }
             }
-            else
+            else if(elem!==elso) //saját magára rakás ellen
             {
+                if(elem.dataset["babu"]!="")
+                {
+                    elem.classList.remove(elem.dataset["babu"]);
+                    elem.dataset["babu"]="";
+                }
+
                 //lerakas
                 elem.classList.add(elso.dataset["babu"]);
                 elem.dataset["babu"]=elso.dataset["babu"];
