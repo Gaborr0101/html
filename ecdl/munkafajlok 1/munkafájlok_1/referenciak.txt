@@ -2,7 +2,6 @@
 <html lang="hu">
 <meta charset="utf-8">
 <title>Kovács és Fiai Kft.</title>
-<link rel="stylesheet" href="styles.css">
 <body>
     <div id="fejlec">
         <h1>Kovács &amp; Fiai Szobafestő és mázoló Kft.</h1>
@@ -20,21 +19,17 @@
         <p class="kep"><img src="festes.jpg"></p>
         <h3>Vállalati, intézményi  referenciák</h3>
         <p>
-            <ol>
-           <li> XZY Rt.</li>
-           <li> AAA Iroda</li>
-           <li> BBB Kft.</li>
-           <li> CCC SZKI</li>
-        </ol>
+            XZY Rt.<br>
+            AAA Iroda<br>
+            BBB Kft.<br>
+            CCC SZKI<br>
         </p>
         <h3>Magán megrendelői referenciák</h3>
         <p>
-            <ul>
-                 <li> Nagy Andrásné, Budapest 1844 Fenyő u. 12.</li>
-                 <li> Szabó Zoltán, Budapest, 1845 Duna stny. 42.</li>
-                 <li> Pais Ábrahám, Budapest, 1846 Varsányi út 67.</li>
-                 <li> Joó Ferenc, Budapest, 1844 Soproni u. 14.</li>
-        </ul>
+            Nagy Andrásné, Budapest 1844 Fenyő u. 12.<br>
+            Szabó Zoltán, Budapest, 1845 Duna stny. 42.<br>
+            Pais Ábrahám, Budapest, 1846 Varsányi út 67.<br>
+            Joó Ferenc, Budapest, 1844 Soproni u. 14.<br>
         </p>
     </div>
     <div id="lablec">

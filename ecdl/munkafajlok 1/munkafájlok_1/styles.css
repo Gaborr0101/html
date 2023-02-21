@@ -7,14 +7,13 @@ body{
 .kep{
     border: 0;
     float: right;
-    width: 130px;
 }
 
 .kep img {
     width: 130px;
 }
 
-/* men� hivatkoz�sok st�luselemei */
+/* menü hivatkozások stíluselemei */
 
 #menu a,
 #menu a:link,
@@ -27,7 +26,7 @@ body{
     text-decoration: none;
 }
 
-/* t�bl�zat st�luselemek */
+/* táblázat stíluselemek */
 
 table{
     border-collapse: collapse;
@@ -43,7 +42,7 @@ td.kiemelt{
     font-weight: bold;
 }
 
-/* �rlap st�luselemek */
+/* űrlap stíluselemek */
 
 #ajanlat_form p{
     font-weight: bold;
