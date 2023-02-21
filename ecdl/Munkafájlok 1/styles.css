@@ -5,11 +5,10 @@ body{
 }
 
 .kep{
+    width: 130px;
     border: 0;
     float: right;
-    width: 130px;
 }
-
 .kep img {
     width: 130px;
 }
