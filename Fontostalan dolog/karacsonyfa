@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenyőfa</title>
+    <style>
+		table,tr,td {
+			border: 0px solid black;
+			border-collapse: collapse;
+		}
+
+		td {
+			height: 70px;
+			width: 50px;
+		}
+
+        .fenyo {
+			background-color: rgb(19, 112, 19);
+        }
+		.talp {
+			background-color: rgba(87, 63, 10, 0.87);
+		}
+    </style>
+</head>
+<body>
+    <table>
+		<tr> 
+            <td colspan="7"></td>
+            <td class="fenyo"></td>
+			<td></td>
+        </tr>
+        <tr> 
+            <td colspan="6"></td>
+            <td class="fenyo" colspan="3"></td>
+			<td></td>
+        </tr>
+        <tr> 
+            <td colspan="5"></td>
+            <td class="fenyo" colspan="5"></td>
+			<td></td>
+        </tr>
+        <tr> 
+            <td colspan="4"></td>
+            <td class="fenyo" colspan="7"></td>
+			<td></td>
+        </tr>
+        <tr> 
+			<td colspan="3"></td>
+            <td class="fenyo" colspan="9"></td>
+			<td></td>
+        </tr>
+		<tr>
+			<td colspan="2"></td>
+            <td class="fenyo" colspan="11"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+            <td class="fenyo" colspan="13"></td>
+			<td></td>
+		</tr>
+		<tr>
+            <td class="fenyo" colspan="15"></td>
+			<td></td>
+		</tr>
+        <tr> 
+            <td colspan="7"></td>
+            <td class="talp"></td>
+            <td></td>
+        </tr>
+		<tr> 
+            <td colspan="7"></td>
+            <td class="talp"></td>
+            <td></td>
+        </tr>
+        <tr> 
+            <td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+            <td class="talp"></td>
+            <td class="talp"></td>
+            <td class="talp"></td>
+            <td></td>
+        </tr>
+	</table>
+</body>
+</html>

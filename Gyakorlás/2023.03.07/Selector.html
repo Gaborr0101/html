@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyak</title>
+    
+    <style>
+        div {
+            border: 1px solid black;
+        }
+
+        #keresett {
+            color: red
+        }
+
+        div > span {
+            font-size: 25px;
+        }
+
+        .hatter {
+            background-color: aqua;
+        }
+
+        h1.hatter {
+            background-color: navy;
+            color:aqua;
+        }
+
+        body div div.hatter b span.hatter {
+            background-color: salmon;
+        }
+        
+        span#keresett.hatter {
+            background-color: pink;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 class="hatter">Cím</h1>
+    <div>
+        <div>első</div>
+        <div class="hatter">második
+            <span id="keresett" class="hatter"> elem</span>
+            <b><span class="hatter"> más színű</span></b>
+            <span class="hatter"> béka</span></div>
+    </div>
+</body>
+</html>

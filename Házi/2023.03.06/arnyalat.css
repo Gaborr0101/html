@@ -1,0 +1,12 @@
+#piros {
+    background-color: hsla(0, 100%, 50%)
+}
+#piros1 {
+    background-color: hsla(0, 75%, 50%)
+}
+
+table, td ,tr {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 20px;
+}

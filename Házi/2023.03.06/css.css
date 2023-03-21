@@ -1,0 +1,25 @@
+* div {
+    margin: 0;
+    padding: 30px;
+    width: 1000px;
+}
+
+#piros {
+    background-color: red;
+}
+#sarga {
+    background-color: yellow;
+}
+#narancs {
+    background-color: orange;
+}
+#zold {
+    background-color: green;
+}
+#kek {
+    background-color: blue;
+}
+
+#lila {
+    background-color: purple;
+}
