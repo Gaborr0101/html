@@ -1,0 +1,10 @@
+Rajtszám	Név	Csapat	1. ugrás	2. ugrás	3. ugrás	4. ugrás	5. ugrás	6. ugrás
+623	Ug Imre	Kalocsai Rozmárok	640	x	698	627	599	661
+534	Tóbiás Félix	Pécsi Kenguruk	656	608	662	622	552	605
+245	Kozma Alfonz	Pécsi Kenguruk	556	594	592	661	x	632
+758	Csabai Kázmér	Miskolci Párducok	659	653	x	651	x	657
+232	Pác János	Miskolci Párducok	591	639	567	591	616	648
+553	Csonka Elemér	Miskolci Párducok	642	x	647	579	x	611
+632	Örvös Eduárd	Pécsi Kenguruk	575	644	603	610	597	600
+632	Csõsz Béla	Kalocsai Rozmárok	620	586	619	641	x	556
+532	Haragos Csaba	Kalocsai Rozmárok	619	609	582	622	585	603
