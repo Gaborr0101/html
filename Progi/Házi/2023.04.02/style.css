@@ -1,0 +1,98 @@
+#elso {
+    font-family: "Courier New", serif;
+    line-height: 35px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: green;
+    font-weight: bold;
+}
+
+#masodik {
+    font-family: fantasy;
+    font-size: 45px;
+    text-align-last: right;
+    text-align: justify;
+    font-variant: small-caps;
+}
+
+#harmadik {
+    font-family:'Franklin Gothic Medium', cursive;
+    font-size: 15px;
+    line-height: 20px;
+    color: burlywood;
+    font-style: italic;
+    text-align: center;
+    text-align-last: right;
+}
+
+#negyedik {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 5px rgb(17, 193, 236);
+    color: green;
+    text-align: justify;
+}
+
+#otodik {
+    font-family: Impact, Haettenschweiler;
+    font-size: 20px;
+    text-decoration: underline overline red double;
+    line-height: 50px;
+    text-transform: uppercase;
+    background-color: aqua;
+}
+
+#hatodik {
+    font-family:Cambria, Cochin, Georgia;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+    text-decoration: line-through gold wavy;
+    color:rgb(20, 0, 134);
+}
+
+#hetedik {
+    font-family: fantasy;
+    font-size: 28px;
+    text-decoration: overline double rgb(11, 65, 212);
+    background-color: rgb(235, 168, 68);
+    text-shadow: 5px 5px 3px rgb(57, 134, 250);
+    letter-spacing: 5px;
+    line-height: 50px;
+}
+
+#nyolcadik {
+    font-family: 'Segoe UI', Tahoma;
+    font-size: 42px;
+    color: rgb(170, 247, 108);
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    text-shadow: 8px 8px 10px rgb(102, 14, 216);
+    background-color: burlywood;
+    text-align: center;
+    font-weight: bold;
+}
+
+#kilencedik {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    text-decoration: line-through solid rgb(25, 196, 19);
+    color:rgb(186, 206, 3);
+    text-shadow: 10px 15px 5px blueviolet;
+    background-color: rgba(241, 64, 64, 0.808);
+    line-height: 40px;
+    font-weight: bold;
+}
+
+#tizedik {
+    font-family: fantasy;
+    font-size: 28px;
+    text-decoration: overline dotted rgb(44, 56, 44);
+    color:rgb(218, 10, 89);
+    text-shadow: 10px 4px 5px rgb(88, 139, 20);
+    text-align: right;
+
+}
