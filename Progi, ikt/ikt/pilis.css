@@ -97,8 +97,48 @@ font-family: Tahoma, Geneva, Tahoma, sans-serif;
 {
     background-color: #96a96f;
     background-image: url(./img02.gif);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    margin-block: 10px;
+}
+
+.sidebar .sideBox h3
+{
+    background-color: #203926;
+    color: white;
+  
+}
+
+.sideBox ul li
+{
+    padding-inline: 5px;
+    color: #203926;
+    list-style-type: none;
+    padding-left: 20px;
 
 }
+
+.sideBox ul
+{
+    padding-left: 0px;
+    margin: 0;
+}
+
+.sideBox a
+{
+    text-decoration: none;
+}
+
+
+.sideBox a:hover li
+{
+    color: #629b66;
+    background-color: #203926;
+}
+
+
+
 
 
 
